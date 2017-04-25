@@ -1,0 +1,488 @@
+html, body {
+        background-color: #5f5f5f;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        height: 100%;
+}
+
+.Logo{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+ 
+
+.htc{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position:fixed;
+    z-index: -30;
+    
+}
+
+.iphone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%; 
+}
+
+.threephones{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;  
+}
+
+
+a.continue{
+    
+}
+
+.clear{
+    clear: both;
+}
+
+navlogo{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.middle{
+    background-color: #F0F4F6;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    font-size: 5em;
+    color: #3E3E3E;
+    
+}
+
+video{
+    position: absolute;
+    min-width: 80vw;
+    min-height: 80vw;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.apps{
+    text-align: center;
+    
+}
+
+.para{
+    text-align: center;
+}
+
+
+#banner{
+    width: 98.8%;
+    height: 600px;
+    position: fixed;
+    top; 100px;
+}
+
+.homestory{
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    color: #3E3E3E;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    
+       
+}
+
+.intro{
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    color: #3E3E3E;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 140%;
+    
+}
+
+#content{
+    width: 100%;
+    position: relative;
+    top: 600px;
+    background: white;
+    height: 100%;
+    position: center;
+}
+
+.phone{
+    color: white;
+    font-size: 2em;
+}
+
+.overlayvideo{
+    position: relative;
+    padding-left: /* 31.5 %*/
+    font-size: 2em;
+    color: white;
+    padding-top: 9%;
+    
+    
+}
+
+.overlaytext { 
+    text-align: center;
+    font-size: 6em;
+    
+
+}
+
+div.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 30px;
+}
+
+header {
+        background-color: #000000;
+        float: left;
+        width: 100%;
+        z-index: 10;
+        position: fixed;
+        top: 0px;
+        margin: 0;
+        padding: 0;
+    
+        
+}
+
+header h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        float: left;
+    
+}
+
+header ul {
+        list-style-type: none;
+        padding-top: 65px;
+        margin: 22px 0px 0px 0px;
+        float: right;
+        display: inline-block;
+}
+
+    
+
+header ul li {
+        display: inline-block;
+}
+
+header ul li a {
+        
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        
+}
+
+div.overlay {
+        display: none;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+}
+
+div.overlay ul {
+        padding: 0;
+        margin: 100px 0 0 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+}
+
+div.overlay ul li {
+        display: block;
+}
+
+div.overlay ul li a {
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        font-size: 50px;
+}
+
+div.overlay img.close {
+        max-width: 30px;
+        position: absolute;
+        right: 30px;
+        top: 26px;
+}
+
+figcaption{
+    display: block;
+}
+
+.price{
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.youtubecenter{
+    width: 560px; 
+    height: 315px;
+
+    position: absolute; 
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto; 
+    
+}
+
+.appimages{
+    float: none;
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.phoneimages {
+    float: right;
+    max-width: 53%
+}
+
+.phonecontent {
+    text-align: left;
+    padding: 2% 10% 2% 10%;
+    color: #3E3E3E;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+}
+
+/** CONTACT FORM CSS **/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.crashlands{
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+.homeimage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    
+}
+
+.fallout{
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+.galaxy{
+   width: 100%;
+    display: block;
+    margin: auto; 
+}
+
+
+
+/**CONTACT FORM CSS **/
+
+
+/** header{
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    width: 98.8%;
+    height: 500px;
+    position: fixed;
+    top; 100px;
+    background: url(../img/Banner.JPG);
+}
+
+#content{
+    width: 100%;
+    position: relative;
+    top: 400px;
+    background: grey;
+    height: 1500px;
+    position: center;
+}
+overlayvideo
+**/
+
+        
+            
+            
+            
+        @media all and (max-width:1200px){
+            header{
+                min-height: 10%;
+            }
+        }
+            
+        
+                
+    
+
+
+    
+    @media  all and  (max-width:768px){
+        header ul{
+  
+                display: inline-block;
+            width:400px;
+            margin-right: auto;
+            margin-left: auto;
+                
+        }
+        
+        header ul, header h1, header li {
+                text-align: center;
+                
+                
+                
+                display: inline-block;
+                
+        }
+        
+        
+        
+            .overlayvideo{
+            position: relative;
+            padding-left: /* 31.5 %*/
+            font-size: 0.5em;
+            color: white;
+            padding-top: 30%;
+        }
+            
+         content {
+            width: 100%;
+            position: relative;
+            top: 600px;
+            background: white;
+            height: 1700px;
+            position: center;
+            
+        }
+            video{
+                min-height: 100%;
+            } 
+            
+            overlaytext{
+        padding-top: 20%;
+            
+        }
+           
+        div.container ul {
+            float:none;
+            display: block;
+             width:400px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .Logo{
+            display: inline-block
+            
+            
+            
+            
+            
+            
+            
+        }
+        .middle{
+            background-color: #F0F4F6;
+            
+            width: 100%;
+            
+        }
+        .title{
+        font-size: 3em;
+        padding-top: 15px;    
+        }
+        .crashlands{
+                  
+    
+        }
+
+        .fallout{
+            width: 100%;
+            display: block;
+            margin: auto;
+    
+        }
+
+        .galaxy{
+            width: 100%;
+            display: block;
+            margin: auto; 
+}
+
+}
